@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #795548;
+}
+
+h1 {
+    margin-top: 20px;
+    color: beige;
+}
+
+#addBtn {
+    padding: 15px 30px;
+    margin: 20px;
+    cursor: pointer;
+    background: #9A9173;
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#notesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note {
+    background: yellow;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.note textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    resize: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.deleteBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: red;
+}
